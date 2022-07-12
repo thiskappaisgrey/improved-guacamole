@@ -7,9 +7,8 @@
     "test": "test"
   },
   "scripts": {
-      "build-js": "parcel build counter.js",
       "build-ps": "spago build",
-      "start" : "parcel main.html"
+      "start" : "parcel index.html"
   },
   "repository": {
     "type": "git",
