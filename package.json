@@ -1,0 +1,27 @@
+{
+  "name": "improved-guacamole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+      "build-js": "parcel build counter.js",
+      "build-ps": "spago build",
+      "start" : "parcel main.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiskappaisgrey/improved-guacamole.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiskappaisgrey/improved-guacamole/issues"
+  },
+  "homepage": "https://github.com/thiskappaisgrey/improved-guacamole#readme",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  }
+}
