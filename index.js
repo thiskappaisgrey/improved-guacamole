@@ -1,1 +1,1 @@
-require("./output/Counter.Main").main();
+require("./output/Main/index.js").main()

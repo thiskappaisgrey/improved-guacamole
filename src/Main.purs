@@ -1,4 +1,4 @@
-module Counter.Main where
+module Main where
 
 import Prelude
 
@@ -28,6 +28,9 @@ update model = case _ of
 -- | `view` is called whenever the model is updated
 view :: Model -> Html Message
 view model = HE.main "main" [
+      -- HE.text "hello world world world",
+      HE.text "hello world",
+      HE.text "\nhello world",
       HE.button [HA.onClick Decrement] "-",
       HE.text $ show model,
       HE.button [HA.onClick Increment] "+"
